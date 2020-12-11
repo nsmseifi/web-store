@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>WEB222 Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="fonts/Fira_Sans/stylesheet.css"/>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+ <script src="myData.js"></script>
+        </head>
+  <body style="background-color:beige;">
+
+    <div class="container" style="display: inline;">
+      <header class="nsm-header">
+        <img src="images/logo.png">
+      </header>
+      <nav style="display: inline-content;">
+        <ul>
+            <li><a id="nav-all" href="#">All</a></li>
+            <li><a id="nav-women" href="#">Women</a></li>
+            <li><a id="nav-men" href="#">Men</a></li>
+            <li><a id="nav-kids" href="#">Kids</a></li>
+
+            <li style="text-align: right;"><a href="contact.html"
+              style="text-align: right;">Contact Us</a></li>
+            </ul>
+      </nav>
+
+      <div id="women_cat" class="container" >
+        <h4 class="cat_font">Women</h4>
+      </div>
+      <br>
+
+      <div id="men_cat" class="container">
+      <h4 class="cat_font" >Men</h4>
+      </div>
+      <br>
+      <div id="kids_cat" class="container">
+        <h4 class="cat_font">Kids</h4>
+      </div>
+    </div>
+    <!--MODAL-->
+
+<div id="modal_item" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Item's description</h5>
+      </div>
+      <div id="modal_body" class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--END MODAL-->
+
+      <footer >
+        <div >
+        <form action="https://formspree.io/f/mjvpakqw" method="post">
+          <label  for="email">Your Email</label>
+          <input  name="Email" id="email" type="email" autocomplete="email">
+          <button type="submit">Subscribe</button>
+        </form>
+        <div style="display: inline;">
+          <p class="center"> Lux Dress Store</p>
+          <p class="center" style="font-size: small;font-style: italic; color: aliceblue;"> All rights reserved for Nasim
+            Seifimamaghani</p>
+        <div>
+          </div>
+
+  </div style="display:block;">
+  <a href="#" class="fa fa-facebook-f  social-m"></a>
+  <a href="#" class="fa fa-instagram  social-m"></a>
+  <a href="https://www.linkedin.com/in/nsmseifi/" class="fa fa-linkedin  social-m"></a>
+  <a href="honesty.html" style="text-align: right;margin-left: 30cm; font-weight: bolder; color: rgb(20, 2, 24);">Honesty</a>
+
+        </div>
+        
+      </footer>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>
