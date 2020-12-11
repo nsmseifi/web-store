@@ -1,0 +1,123 @@
+/* Add any CSS you need to this file. */
+
+.container {
+  width: 90%;
+  margin: auto;
+  background-color: rgb(245, 230, 220);
+}
+nav {
+  background-color: plum;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0, 10;
+  padding: 30;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav a:link,
+nav a:visited {
+  display: block;
+  color: #ffffff;
+  background-color: plum;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-left: 1px inset #ecefec;
+  border-right: 1px inset #ecefec;
+}
+
+nav ul li ul {
+  padding: 8px 12px;
+  position: absolute;
+  display: none;
+  visibility: hidden;
+  transition: opacity 0.2s;
+}
+
+nav ul li:hover ul {
+  display: block;
+  padding: 0;
+  width: 150px;
+  opacity: 1;
+  visibility: visible;
+}
+
+nav ul li ul li {
+  display: block;
+  text-align: left;
+  width: 150px;
+}
+
+nav a:hover {
+  background-color: purple;
+  color: #ffffff;
+}
+.clear {
+  clear: both;
+}
+
+.center {
+  text-align: center;
+  padding-top: 0.6em;
+}
+
+footer {
+  background-color: rgb(150, 87, 192);
+  color: #ffffff;
+  height: 80px;
+}
+.nsm-header {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.nsm-img {
+  max-height: 120px;
+}
+
+.nsm-h1 {
+  color: #d54d7b;
+  font-family: 'Great Vibes', cursive;
+  margin: 0px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
+
+.card_notes {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.social-m {
+  background: beige;
+  color: rgb(20, 2, 24);
+  max-height: 30;
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+}
+
+.cat_font {
+  font-family: 'Fira Sans';
+  font-weight: 900;
+  font-style: normal;
+}
